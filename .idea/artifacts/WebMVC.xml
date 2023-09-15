@@ -1,6 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="WebMVC">
-    <output-path>$PROJECT_DIR$/out/artifacts/WebMVC</output-path>
-    <root id="archive" name="WebMVC.war" />
-  </artifact>
-</component>
