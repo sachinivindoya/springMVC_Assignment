@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="springMVC_Assignment.main:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/springMVC_Assignment_main_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="springMVC_Assignment.main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:5.3.18" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:5.3.18" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:5.3.18" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:5.3.22" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:5.3.18" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:5.3.18" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:5.3.18" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jcl:5.3.22" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="springMVC_Assignment.main/web/Web" />
+    </root>
+  </artifact>
+</component>

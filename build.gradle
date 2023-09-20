@@ -13,25 +13,42 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 
-    //**Spring Core
+//Spring-Core
+    implementation group: 'org.springframework', name: 'spring-core', version: '5.3.18'
 
-    // https://mvnrepository.com/artifact/org.springframework/spring-core
-    implementation group: 'org.springframework', name: 'spring-core', version: '5.3.22'
-
-    // https://mvnrepository.com/artifact/org.springframework/spring-beans
+    //Spring-Beans
     implementation group: 'org.springframework', name: 'spring-beans', version: '5.3.18'
 
-    // https://mvnrepository.com/artifact/org.springframework/spring-context
+    //Spring-Context
     implementation group: 'org.springframework', name: 'spring-context', version: '5.3.18'
 
-    //**Spring web Mvc
-
-    // https://mvnrepository.com/artifact/org.springframework/spring-webmvc
+    //Spring-WebMVC
     implementation group: 'org.springframework', name: 'spring-webmvc', version: '5.3.18'
 
-    // https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
+    //Spring-Web
+    implementation group: 'org.springframework', name: 'spring-web', version: '5.3.18'
+
+    //Servelet API
     compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
 
+    //Lombok
+    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.24'
+
+    //Jackson
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.13.3'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.13.3'
+
+    //Spring Data JPA
+    implementation group: 'org.springframework.data', name: 'spring-data-jpa', version: '2.7.7'
+
+    //Hibernate
+    implementation group: 'org.hibernate', name: 'hibernate-core', version: '5.6.14.Final'
+
+    //MySQL Connector
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.33'
+
+    //Model Mapper
+    implementation group: 'org.modelmapper', name: 'modelmapper', version: '3.1.1'
 
 }
 

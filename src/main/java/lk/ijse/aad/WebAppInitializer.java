@@ -1,5 +1,6 @@
 package lk.ijse.aad;
 
+import lk.ijse.aad.config.WebAppConfig;
 import lk.ijse.aad.config.WebAppRootConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
@@ -11,7 +12,7 @@ public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServlet
 
     @Override
     protected Class<?>[] getServletConfigClasses() {
-        return new Class[]{WebAppRootConfig.class};
+        return new Class[]{WebAppConfig.class};
     }
 
     @Override
