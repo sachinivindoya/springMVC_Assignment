@@ -1,5 +1,7 @@
 package lk.ijse.aad;
 
+import lk.ijse.aad.configuration.WebAppConfig;
+import lk.ijse.aad.configuration.WebAppRootConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer{
