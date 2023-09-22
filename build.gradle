@@ -13,41 +13,38 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 
-//Spring-Core
-    implementation group: 'org.springframework', name: 'spring-core', version: '5.3.18'
 
-    //Spring-Beans
-    implementation group: 'org.springframework', name: 'spring-beans', version: '5.3.18'
-
-    //Spring-Context
-    implementation group: 'org.springframework', name: 'spring-context', version: '5.3.18'
-
-    //Spring-WebMVC
-    implementation group: 'org.springframework', name: 'spring-webmvc', version: '5.3.18'
-
-    //Spring-Web
-    implementation group: 'org.springframework', name: 'spring-web', version: '5.3.18'
-
-    //Servelet API
+    // https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
     compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
 
-    //Lombok
-    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.24'
+    // https://mvnrepository.com/artifact/org.springframework/spring-webmvc
+    implementation group: 'org.springframework', name: 'spring-webmvc', version: '5.3.22'
 
-    //Jackson
-    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.13.3'
-    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.13.3'
+    // https://mvnrepository.com/artifact/org.springframework/spring-orm
+    implementation group: 'org.springframework', name: 'spring-orm', version: '5.3.22'
 
-    //Spring Data JPA
-    implementation group: 'org.springframework.data', name: 'spring-data-jpa', version: '2.7.7'
+    // https://mvnrepository.com/artifact/org.springframework/spring-context
+    implementation group: 'org.springframework', name: 'spring-context', version: '5.3.21'
 
-    //Hibernate
-    implementation group: 'org.hibernate', name: 'hibernate-core', version: '5.6.14.Final'
+    // https://mvnrepository.com/artifact/org.projectlombok/lombok
+    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.28'
 
-    //MySQL Connector
-    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.33'
+    // https://mvnrepository.com/artifact/org.hibernate/hibernate-core
+    implementation group: 'org.hibernate', name: 'hibernate-core', version: '5.6.9.Final'
 
-    //Model Mapper
+    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.29'
+
+    // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.9.8'
+
+    // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.8'
+
+    // https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa
+    implementation group: 'org.springframework.data', name: 'spring-data-jpa', version: '2.5.4'
+
+    // https://mvnrepository.com/artifact/org.modelmapper/modelmapper
     implementation group: 'org.modelmapper', name: 'modelmapper', version: '3.1.1'
 
 }

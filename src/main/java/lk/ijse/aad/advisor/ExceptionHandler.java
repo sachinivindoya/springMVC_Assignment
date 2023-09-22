@@ -14,6 +14,6 @@ public class ExceptionHandler {
     @org.springframework.web.bind.annotation.ExceptionHandler({Exception.class})
 
     public ResponseUtil exceptionHandler(Exception e){
-        return new ResponseUtil(500,e.getMessage(),null);
+        return new ResponseUtil();
     }
 }
